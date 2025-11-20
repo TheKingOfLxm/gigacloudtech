@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btn1 {
+    margin-right: 36px;
+}
+
+.header-btn1-btn {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 16px 58px;
+    background-color: #10325d;
+    cursor: pointer;
+}
+
+.header-btn1-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.header-btn2 {
+    cursor: pointer;
+}
+
+.footer-content {
+    width: 100%;
+    background-color: #10325d;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+.ewm {
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer-header {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ewm-ewm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 16px;
+}
+
+.ewm-span {
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+.hr {
+    height: 5px;
+    background-color: #c36d31;
+    padding-left: 32px;
+    position: absolute;
+    top: 0;
+    width: 108%;
+}
+
+.footer-body {
+    position: relative;
+    padding-top: 36px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.footer-body-left {
+    color: #fff;
+}
+
+.footer-body-left-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.footer-body-left-content {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.icon {
+    background-color: #c36d31;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.footer-body-right {
+    color: #fff;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-body-right-item {
+    padding: 8px 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer-footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 24px 32px;
+    color: #fff;
+}
