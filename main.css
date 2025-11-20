@@ -15,7 +15,9 @@ button {
     background: #fff;
     display: flex;
     align-items: center;
+    top: 0;
     position: fixed;
+    z-index: 100;
 }
 
 .header-content {
@@ -61,6 +63,7 @@ button {
     background-color: #10325d;
     border-bottom-left-radius: 10px; 
     border-bottom-right-radius: 10px; 
+    overflow: hidden;
 }
 
 .ewm {
@@ -95,7 +98,7 @@ button {
     padding-left: 32px;
     position: absolute;
     top: 0;
-    width: 108%;
+    width: 200%;
 }
 
 .footer-body {
@@ -149,9 +152,235 @@ button {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0 auto;
     max-width: 1240px;
     padding: 24px 32px;
     color: #fff;
+}
+
+.section1 {
+    position: relative;
+    margin-top: 100px;
+    background: url(./imgs/home-bg.png) no-repeat center center;
+    background-size: cover;
+    padding-top: 320px;
+    padding-bottom: 192px;
+    overflow: hidden;
+}
+
+.section1-content {
+    margin: 0 auto;
+    padding: 0 32px;
+    max-width: 1240px;
+    position: relative;
+}
+
+.section1-content-title {
+    font-size: 48px;
+    line-height: 1.5;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.section1-content-button {
+    color: #fff;
+    background-color: #c36d31;
+    border: 1px solid #c36d31;
+    font-size: 20px;
+    padding: 29px 40px;
+    cursor: pointer;
+    margin-top: 48px;
+    font-weight: 600;
+}
+
+.section1-content-button:hover {
+    color: #c36d31;
+    background-color: transparent;
+}
+
+.section1-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    top: 0;
+}
+
+.section1-text {
+    color: #f5f5dc;
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    animation: slideleft 10s infinite linear;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.section1-text-icon {
+    line-height: 36px;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    background-color: #c36d31;
+    border-radius: 50%;
+    margin: 0 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1-text-item {
+    display: flex;
+    align-items: center;
+    line-height: 36px;
+    white-space: nowrap;
+}
+
+.section1-text-icon-text {
+    display: inline-block;
+    width: 4px;
+    height: 22px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 120px;
+    padding-top: 72px;
+    padding-bottom: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.section2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section2-title {
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 32px;
+    font-weight: 600;
+    line-height: 1.16;
+}
+
+.section3 {
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.section3-content {
+    padding-bottom: 96px;
+}
+
+.section3-content-group {
+    display: flex;
+    gap: 20px;
+}
+
+.section3-content-item {
+    width: calc((100% - 60px) / 4);
+    padding: 40px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #c36d31;
+}
+
+.section3-content-item-num {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+}
+
+.section3-content-item-name {
+    font-size: 14.08px;
+    color: #000;
+}
+
+.section3-date {
+    font-size: 14.08px;
+    margin-top: 48px;
+    float: right;
+}
+
+.section4 {
+    background-color: #eceef0;
+}
+
+.section4-content {
+    height: 680px;
+    display: flex;
+    gap: 40px;
+    padding: 0 32px;
+    margin: 0 auto;
+    max-width: 1240px;
+    align-items: center;
+}
+
+.section5 {
+    background-image: url(./imgs/wlwl.png);
+    background-size: cover;
+    margin: 0 auto;
+    height: 432px;
+    position: relative;
+}
+
+.section5-cover {
+    background-color: #10325d;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0% 0%, 75% 0, 100% 100%, 25% 100%);
+}
+
+.section5-content {
+    position: relative;
+    padding: 100px 32px;
+    margin: 0 auto;
+    max-width: 1240px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.section5-title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    line-height: 1.16;
+}
+
+.section5-text {
+    width: 45%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
 }
