@@ -1,0 +1,80 @@
+{
+    "imgs": {
+                "img1": "https://staging.gigacloudtech.cn/_nuxt/logo.Bg5iPk6P.png",
+                "img2": "https://staging.gigacloudtech.cn/_nuxt/home-bg.B_dOLjcb.jpeg",
+                "img3": "https://staging.gigacloudtech.cn/_nuxt/b2bmarketplace.DHcaBjpa.png",
+                "img4": "https://staging.gigacloudtech.cn/_nuxt/sellers.DQS-Mzi6.png",
+                "img5": "https://staging.gigacloudtech.cn/_nuxt/buyers.DKv7typf.png",
+                "img6": "https://staging.gigacloudtech.cn/_nuxt/sfr-logo.D_6R_ugZ.png",
+                "img7": "https://staging.gigacloudtech.cn/_nuxt/car-back.TwEzKcl7.png",
+                "img8": "https://staging.gigacloudtech.cn/_nuxt/18.Cm4Wzsd1.png",
+                "img9": "https://staging.gigacloudtech.cn/_nuxt/code.BPJ-z3bC.jpg",
+                "img10": "https://staging.gigacloudtech.cn/_nuxt/code2.Br9-9_-5.png"
+            },
+    "section3": [
+        {
+            "id": 1,
+            "img": "https://staging.gigacloudtech.cn/_nuxt/buyers-statistic.IL718Gyz.png",
+            "num": "9,967",
+            "name": "活跃零售商"
+        },
+        {
+            "id": 2,
+            "img": "https://staging.gigacloudtech.cn/_nuxt/sellers-statistic.CVsKwjUi.png",
+            "num": "1,155",
+            "name": "活跃供应商"
+        },  
+        {
+            "id": 3,
+            "img": "https://staging.gigacloudtech.cn/_nuxt/warehouses-statistic.BFZXpEne.png",
+            "num": "36",
+            "name": "交付中心"
+        },
+        {
+            "id": 4,
+            "img": "https://staging.gigacloudtech.cn/_nuxt/totalSpace-statistic.E4YPcRZl.png",
+            "num": "10.5M+",
+            "name": "海外仓面积"
+        }
+    ],
+    "section6": [
+        {
+            "id": 1,
+            "img": "https://staging.gigacloudtech.cn/_nuxt/competitive-cean-freight.DkuAXOLP.jpg",
+            "text": "有竞争力的海运价格",
+            "reverse": false
+        },
+        {
+            "id": 2,
+            "img": "https://staging.gigacloudtech.cn/_nuxt/comprehensive-warehousing.BM39GjTu.jpg",
+            "text": "综合性的仓储服务",
+            "reverse": true
+        },
+        {
+            "id": 3,
+            "img": "https://staging.gigacloudtech.cn/_nuxt/reliable-fulfillment.nH-UfAkb.jpg",
+            "text": "可靠的交付能力",
+            "reverse": false
+        }
+    ],
+    "section7": [
+        {
+            "id": 1,
+            "img": "https://staging.gigacloudtech.cn/_nuxt/competitive-cean-freight.DkuAXOLP.jpg",
+            "text": "全球领先的B2B跨境电商供应链服务商"
+        },
+        {
+            "id": 2,
+            "img": "https://staging.gigacloudtech.cn/_nuxt/comprehensive-warehousing.BM39GjTu.jpg",
+            "text": "为全球零售商和品牌商提供一站式供应链解决方案"
+        },
+        {
+            "id": 3,
+            "img": "https://staging.gigacloudtech.cn/_nuxt/reliable-fulfillment.nH-UfAkb.jpg",
+            "text": "覆盖全球主要市场的海外仓网络"
+        }
+    ]
+        
+    
+}
+
